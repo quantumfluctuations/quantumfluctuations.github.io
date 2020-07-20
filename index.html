@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: "";
+  background-image: 
+     linear-gradient(
+      50deg,
+     rgba(0, 204, 255, 0.6),
+     rgba(255, 102, 0, 0.4),
+     rgba(51, 102, 204, 0.9)
+    ), url('https://znp4ma.ch.files.1drv.com/y4m2lTTxNd52YIPEq6O_jxYRWL6RUZUONM3OKWXxgX6FxZsaGRFRIA0LJKl5B9j__OdIOwJBs3VhsJnH-szR0Ai92nZA7mvb5qKKUzLcgFHfR2rbQBXnbfzq78LzKCNokDmmcKqZqob0TEQU6zkghpbEjG5suieslYMmlDP9pLZrPSc3-n0UyapSJKUm2rZpn4QUwIolulEMvoY3XXVL81jag?width=576&height=1024&cropmode=none');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#welcome-section {
+  height: 100vh;
+}
+.h1 {
+ font-family: 'Bangers', cursive;
+  font-size: 80px;
+  color: black;
+  text-align: center;
+  padding: 200px;
+  position: relative;
+  margin: auto;
+}
+.fancytext {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  color: white;
+  text-align: inherit;
+}
+.rock-on {
+  width: auto;
+  height: auto;
+  border-style: solid;
+  max-width: auto;
+  margin: auto;
+  border-width: 5px;
+  background-color: rgba(20, 100, 150, 0.5);
+  border-color: rgba(20, 100, 150, 0.5);
+  text-align: center;
+}
+#projects {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: rgba(0, 102, 153, 0.9);
+}
+.project-tile {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+}
+.latte {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 50px;
+  color: rgba(0, 102, 153, 0.9);
+}
+.fancybox1 {
+  width: auto;
+  height: auto;
+  border-style: solid;
+  max-width: auto;
+  border-width: 5px;
+  background-color: rgba(128, 128, 128, 0.7);
+  border-color:  rgba(20, 100, 150, 0.5);
+  text-align: center;
+}
+ .logo {
+  font-size: 60px;
+  animation: vartext 10s linear infinite;
+  
+  background: linear-gradient(90deg, rgba(48, 207, 208,1) 0%,rgba(51, 8, 103,1) 10%,rgba(42, 245, 152,1)
+ 20%,rgba(0, 158, 253,1) 30%,rgba(254, 225, 64,1) 40%,rgba(146, 254, 157,1) 50%,rgba(0, 201, 255,1) 60%,rgba(0, 219, 222,1) 70%,rgba(252, 0, 255,1) 80%,rgba(150,48,30,1) 90%,rgba(199,201,88,1) 100%);
+  background-size: 1000% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translate(-50%, -50%);
+}
+.link {
+  text-decoration:none;
+  text-align: center;
+  animation: vartext 10s linear infinite;
+  
+  background: linear-gradient(90deg, rgba(48, 207, 208,1) 0%,rgba(51, 8, 103,1) 10%,rgba(42, 245, 152,1)
+ 20%,rgba(0, 158, 253,1) 30%,rgba(254, 225, 64,1) 40%,rgba(146, 254, 157,1) 50%,rgba(0, 201, 255,1) 60%,rgba(0, 219, 222,1) 70%,rgba(252, 0, 255,1) 80%,rgba(150,48,30,1) 90%,rgba(199,201,88,1) 100%);
+  background-size: 1000% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translate(-50%, -50%);
+  margin: 50px;
+}
+@keyframes vartext {
+   0%{background-position:0% 25%}
+  25%{background-position:25% 50%}
+  75%{background-position:50% 75%}
+  100%{background-position:75% 100%}
+}
+ .link:hover {
+    animation-name: background-color;
+    animation-duration: 1000000s;
+  }
+  
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+.project-tile:hover {
+  animation-name: shadow;
+  animation-duration: 1000000s;
+}
+@keyframes shadow {
+   0% {
+      box-shadow: 0 10px 20px rgba(0,0,0,0.9), 0 6px 6px rgba(0,0,0,0.9);
+    }
+}
+.finitobox {
+  width: auto;
+  height: auto;
+  border-style: solid;
+  max-width: auto;
+  border-width: 5px;
+  background-color: rgba(20, 100, 150, 0.5);
+  border-color: rgba(20, 100, 150, 0.5);
+  text-align: center;
+  margin: auto;
+}
+.h1:hover {
+ background: linear-gradient(to right, #eea2a2 , #bbc1bf , #57c6e1 , #b49fda, #7ac5d8);
+ background-clip: text;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  border-color: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+.ilinks {
+  text-decoration:none;
+  font-family: sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.ilinks:hover {
+  background: #92fe9d;
+}
+.bar {
+  font-size: 35px;
+  color: white;
+}
+@media (min-width: 100px) and (max-width: 1024px) {
+  .project-tile {
+    width:  90vmin;
+    height: 300px;
+    margin: auto;
+  }
+  .logo {
+    font-size: 5vw;
+    margin: auto;
+}
+  .nav {
+    height: auto;
+    max-height: 100%;
+  }
+  .ilinks {
+    font-size: 5vw;
+  }
+  .link {
+    font-size: 5vw;
+    margin: auto;
+  }
+  .finitobox {
+    width: 100%;
+    height: auto;
+  }
+  .h1 {
+    font-size: 10vw;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+   }
+  .fancytext {
+    font-size: 5vw;
+    margin: auto;
+    text-align: center;
+  }
+  .bar {
+    font-size: 5vw;
+  }
+}
+a {
+  text-decoration:none;
+  color: rgba(0, 102, 153, 0.9);
+}
+
+a:hover {
+  color: #0033cc;
+}
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/3df675dbc4.js" crossorigin="anonymous"></script>
+<nav id="navbar" class="nav">
+  <a href="#welcome-section" class= "ilinks">About</a><span class="bar"> | </span>
+      <a href="#projects" class= "ilinks">Work</a><span class="bar"> | </span>
+      <a href="#contact" class= "ilinks">Contact</a>
+</nav>
+<div class= "box rock-on" id="welcome-section">
+<p class="h1">Welcome to my Webpage!!</p>
+<span class= "fancytext">Finally, the ONLY webpage themed after ME by ME</span>
+</div><br>
+<section id="projects" class= "box fancybox1">
+  <p class="latte">Here are some of my Projects</p>
+  <a href="https://codepen.io/quantum_fluctuations/full/RwrJBBe" target="_blank">
+    <p>(This was an FCC challenge) My Dream PC...</p></a>
+<iframe class= "project-tile" scrolling="no" title="Purchase Quasar " src="https://codepen.io/quantum_fluctuations/full/RwrJBBe" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
+  <a href="https://codepen.io/quantum_fluctuations/full/QWymMMm" target="_blank">
+    <p>A tribute to one of the Greatest Minds in the field of Physics</p></a>
+  <iframe class= "project-tile" scrolling="no" title="Paul Dirac" src="https://codepen.io/quantum_fluctuations/full/QWymMMm" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
+  <a href="https://codepen.io/quantum_fluctuations/full/MWKGGRz" target="_blank">
+    <p>Support the Gigantic Successor of the LHC (Large Hadron Collider)!!</p></a>
+  <iframe class= "project-tile" scrolling="no" title="FCC Support" src="https://codepen.io/quantum_fluctuations/full/MWKGGRz" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe><br>
+</section>
+<figure class= "box finitobox" id ="contact">
+<span class= "logo">
+  <a href="https://www.instagram.com/astroeinstein152/" target="_blank" class= "link" id="profile-link">
+    <div class="fab fa-instagram">Instagram</div></a>
+  <a href="https://github.com/quantumfluctuations" target="_blank" class= "link" id="profile-link">
+    <div class="fab fa-github">GitHub</div></a>
+  <a href="https://www.freecodecamp.org/exclusion_pranav" target="_blank" class= "link" id="profile-link"><div class="fab fa-free-code-camp">FreeCodeCamp</div></a>
+  <div class="fas fa-envelope"> Gmail : pranavguruprasad2210@gmail.com</div>
+  <div class="fas fa-mobile"> Contact Number : 8296714400</div>
+</span>
+</figure>
+</html>
